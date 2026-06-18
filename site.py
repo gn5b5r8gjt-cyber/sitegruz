@@ -17,7 +17,7 @@
 body{font-family:'Nunito',sans-serif;color:var(--text);background:var(--bg);min-height:100vh}
 .container{width:min(1160px,95%);margin:0 auto}
 
-/* TOPBAR */
+
 .topbar{background:#0f172a;color:#dbe3f0;border-bottom:1px solid rgba(255,255,255,.07)}
 .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:10px 0;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:.75rem}
@@ -33,14 +33,14 @@ body{font-family:'Nunito',sans-serif;color:var(--text);background:var(--bg);min-
 .lang-btn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);color:#dbe3f0;border-radius:6px;padding:.22rem .55rem;cursor:pointer;font-size:.75rem;font-weight:600;transition:.15s}
 .lang-btn.active{background:var(--primary);border-color:var(--primary);color:#fff}
 
-/* NAV */
+
 .main-nav{background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
 .nav-inner{display:flex;flex-wrap:wrap;gap:.4rem;padding:.65rem 0}
 .nav-btn{border:1px solid var(--border);background:#fff;padding:.48rem .9rem;border-radius:10px;cursor:pointer;font-weight:600;font-size:.84rem;color:#2d3748;transition:.18s;font-family:'Nunito',sans-serif;white-space:nowrap}
 .nav-btn:hover{border-color:var(--primary);color:var(--primary)}
 .nav-btn.active{color:var(--primary);border-color:rgba(31,111,235,.4);background:rgba(31,111,235,.08)}
 
-/* BUTTONS */
+
 .btn{border:1px solid transparent;border-radius:10px;padding:.52rem 1.1rem;font-weight:600;cursor:pointer;font-family:'Nunito',sans-serif;font-size:.88rem;transition:.17s}
 .btn.primary{color:#fff;background:var(--primary)}
 .btn.primary:hover{background:var(--primary-dark);transform:translateY(-1px)}
@@ -55,7 +55,7 @@ body{font-family:'Nunito',sans-serif;color:var(--text);background:var(--bg);min-
 .btn.full{width:100%}
 .btn.sm{padding:.35rem .75rem;font-size:.8rem}
 
-/* PAGE */
+
 .page{padding:1.4rem 0 3rem}
 .tab-content{display:none}
 .tab-content.active{display:block}
@@ -66,7 +66,7 @@ body{font-family:'Nunito',sans-serif;color:var(--text);background:var(--bg);min-
 .hero h1{font-family:'Unbounded',sans-serif;font-size:clamp(1.15rem,2.5vw,1.75rem);font-weight:700;margin-bottom:.4rem}
 .hero p{color:var(--muted);font-size:.93rem}
 
-/* FILTERS */
+
 .filter-grid{margin-top:.8rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.7rem;align-items:end}
 label{display:grid;gap:.3rem;font-weight:600;font-size:.86rem}
 select,input[type=text],input[type=number],input[type=date],input[type=email],input[type=password],textarea{border:1px solid var(--border);border-radius:10px;padding:.52rem .7rem;font-size:.91rem;background:#fff;font-family:'Nunito',sans-serif;transition:border-color .15s;width:100%}
@@ -74,7 +74,7 @@ select:focus,input:focus,textarea:focus{outline:none;border-color:var(--primary)
 textarea{resize:vertical;min-height:80px}
 .muted{color:var(--muted);font-size:.86rem}
 
-/* EXPENSIVE */
+
 .expensive-grid{margin-top:.9rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.8rem}
 .expensive-card{border:1px solid #fde6a6;background:linear-gradient(145deg,#fffdf5,#fff9e8);border-radius:14px;padding:.9rem;transition:.18s}
 .expensive-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(154,52,18,.1)}
@@ -83,7 +83,7 @@ textarea{resize:vertical;min-height:80px}
 .price{color:#9a3412!important;font-weight:700!important;font-size:.98rem!important}
 .expensive-card .btn{margin-top:.6rem}
 
-/* TABLE */
+
 .table-wrap{margin-top:.8rem;overflow-x:auto}
 table{border-collapse:collapse;width:100%;min-width:820px}
 th,td{border-bottom:1px solid var(--border);padding:.6rem .7rem;text-align:left;vertical-align:middle;font-size:.88rem}
@@ -96,7 +96,7 @@ tr:hover td{background:#f5f9ff}
 .dist-action{color:var(--warn);font-weight:700;cursor:pointer;padding:.28rem .6rem;border-radius:8px;border:1px solid rgba(217,119,6,.3);background:rgba(217,119,6,.07);font-size:.8rem;white-space:nowrap;display:inline-block;transition:.15s;margin-left:.3rem}
 .dist-action:hover{background:var(--warn);color:#fff}
 
-/* TRANSPORT CARDS */
+
 .transport-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1rem;margin-top:1rem}
 .transport-card{border:1px solid var(--border);border-radius:14px;padding:1rem;background:#fff;transition:.18s;display:flex;gap:.9rem;align-items:flex-start}
 .transport-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
@@ -113,7 +113,7 @@ tr:hover td{background:#f5f9ff}
 .badge-gold{background:rgba(217,119,6,.12);color:#92400e}
 .badge-red{background:rgba(220,38,38,.1);color:var(--danger)}
 
-/* RATING STARS */
+
 .star-row{display:flex;gap:.3rem;margin:.4rem 0}
 .star-btn{background:none;border:none;cursor:pointer;font-size:1.6rem;color:#94a3b8;transition:.1s;padding:0}
 .star-btn:hover,.star-btn.active{color:#f59e0b}
@@ -121,7 +121,7 @@ tr:hover td{background:#f5f9ff}
 .rating-display .stars{color:#f59e0b;font-size:.9rem;letter-spacing:.02em}
 .rating-display .val{color:var(--text)}
 
-/* FORMS */
+
 .form-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:.9rem;margin-top:1rem}
 .form-full{grid-column:1/-1}
 .form-actions{margin-top:1.2rem;display:flex;gap:.75rem;flex-wrap:wrap}
@@ -131,11 +131,11 @@ tr:hover td{background:#f5f9ff}
 .success-banner.show{display:flex}
 .field-group-title{font-weight:700;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em;color:var(--primary);margin:.8rem 0 .3rem;padding:.3rem .6rem;background:rgba(31,111,235,.06);border-radius:7px}
 
-/* BROKER */
+
 .broker-section{background:linear-gradient(135deg,rgba(124,58,237,.06),rgba(79,70,229,.06));border:1px solid rgba(124,58,237,.25);border-radius:14px;padding:1rem 1.2rem;margin-bottom:1rem}
 .broker-section h3{font-size:.95rem;font-weight:700;color:#4f46e5;margin-bottom:.5rem}
 
-/* WALLET */
+
 .wallet-card{background:linear-gradient(135deg,#0f172a,#1e3a5f);color:#fff;border-radius:16px;padding:1.4rem;margin-bottom:1rem}
 .wallet-balance{font-size:2rem;font-weight:800;font-family:'Unbounded',sans-serif;color:#7dd3fc;margin:.3rem 0 .1rem}
 .wallet-sub{opacity:.65;font-size:.82rem}
@@ -147,7 +147,7 @@ tr:hover td{background:#f5f9ff}
 .tx-minus{color:var(--danger);font-weight:700}
 .tx-frozen{color:var(--warn);font-weight:700}
 
-/* CHAT */
+
 .chat-window{display:flex;flex-direction:column;height:450px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
 .chat-header{background:#f8fbff;border-bottom:1px solid var(--border);padding:.7rem 1rem;font-weight:700;font-size:.9rem;display:flex;justify-content:space-between;align-items:center}
 .chat-messages{flex:1;overflow-y:auto;padding:.9rem;display:flex;flex-direction:column;gap:.6rem;background:#fafcff}
@@ -161,7 +161,7 @@ tr:hover td{background:#f5f9ff}
 .chat-input-row input{flex:1;border:1px solid var(--border);border-radius:10px;padding:.45rem .7rem;font-size:.88rem;font-family:'Nunito',sans-serif}
 .chat-input-row input:focus{outline:none;border-color:var(--primary)}
 
-/* PROFILE */
+
 .my-loads-list{margin-top:1rem;display:flex;flex-direction:column;gap:.7rem}
 .my-load-item{border:1px solid var(--border);border-radius:12px;padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
 .my-load-info{font-size:.88rem;flex:1;min-width:0}
@@ -172,7 +172,7 @@ tr:hover td{background:#f5f9ff}
 .empty-state{text-align:center;padding:2.5rem 1rem;color:var(--muted)}
 .empty-state .es-icon{font-size:2.5rem;margin-bottom:.7rem;opacity:.45}
 
-/* MODAL */
+
 .modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.65);backdrop-filter:blur(4px);z-index:100;display:none;align-items:center;justify-content:center;padding:1rem}
 .modal-overlay.open{display:flex}
 .modal{background:#fff;border-radius:20px;box-shadow:var(--shadow-lg);width:min(480px,100%);padding:1.8rem;position:relative;animation:modalIn .25s ease;max-height:90vh;overflow-y:auto}
@@ -198,11 +198,11 @@ tr:hover td{background:#f5f9ff}
 .profile-badge.show{display:flex}
 .avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));display:grid;place-items:center;font-weight:700;font-size:.77rem;color:#fff}
 
-/* DIST RESULT */
+
 .dist-result{background:rgba(31,111,235,.06);border:1px solid rgba(31,111,235,.2);border-radius:10px;padding:.7rem 1rem;margin-top:.6rem;font-size:.88rem}
 .dist-result strong{color:var(--primary);font-size:1rem}
 
-/* TOAST */
+
 .toast{position:fixed;right:18px;bottom:80px;background:#0f172a;color:#fff;border-radius:12px;padding:.72rem 1.1rem;opacity:0;transform:translateY(12px);pointer-events:none;transition:.22s ease;z-index:300;font-size:.86rem;font-weight:600;max-width:320px}
 .toast.show{opacity:1;transform:translateY(0)}
 .toast.success{background:var(--accent)}
@@ -211,7 +211,7 @@ tr:hover td{background:#f5f9ff}
 
 input.phone-input{letter-spacing:.04em}
 
-/* BROKER PANEL */
+
 .broker-request-card{border:1px solid var(--border);border-radius:12px;padding:.9rem 1rem;margin-bottom:.7rem;background:#fff}
 .broker-request-card .req-route{font-weight:700;font-size:.95rem;margin-bottom:.25rem}
 .broker-request-card .req-meta{font-size:.82rem;color:var(--muted);margin-bottom:.5rem}
@@ -223,7 +223,7 @@ input.phone-input{letter-spacing:.04em}
 .broker-stat-num{font-size:1.4rem;font-weight:800;font-family:'Unbounded',sans-serif}
 .broker-stat-label{font-size:.74rem;opacity:.8;margin-top:.1rem}
 
-/* BROKER ACTIVE CHATS */
+
 .broker-chat-grid{display:grid;grid-template-columns:minmax(240px,300px) 1fr;gap:1rem;align-items:start;margin-top:1rem}
 .broker-chat-list{display:flex;flex-direction:column;gap:.45rem}
 .broker-chat-item{border:1px solid var(--border);border-radius:10px;padding:.65rem .85rem;cursor:pointer;transition:.15s;background:#fff}
@@ -237,13 +237,13 @@ input.phone-input{letter-spacing:.04em}
 .broker-chat-input input{flex:1;border:1px solid var(--border);border-radius:10px;padding:.4rem .65rem;font-size:.86rem;font-family:'Nunito',sans-serif}
 .broker-chat-input input:focus{outline:none;border-color:#7c3aed}
 
-/* ACTIVE DEALS */
+
 .deal-card{border:1px solid var(--border);border-radius:12px;padding:.9rem 1rem;margin-bottom:.7rem;background:#fff;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.6rem}
 .deal-info strong{display:block;font-size:.92rem;margin-bottom:.2rem}
 .deal-info span{font-size:.82rem;color:var(--muted)}
 .deal-actions{display:flex;gap:.4rem;flex-wrap:wrap}
 
-/* CHAT SUGGESTIONS */
+
 .chat-suggestions{display:flex;flex-wrap:wrap;gap:.4rem;padding:.55rem .9rem;border-top:1px solid var(--border);background:#f8fbff}
 .chat-suggestion{background:#fff;border:1px solid rgba(31,111,235,.35);color:var(--primary);border-radius:20px;padding:.28rem .75rem;font-size:.79rem;font-weight:600;cursor:pointer;transition:.15s;font-family:'Nunito',sans-serif}
 .chat-suggestion:hover{background:var(--primary);color:#fff}
@@ -252,7 +252,7 @@ input.phone-input{letter-spacing:.04em}
 .chat-attach-btn img{width:24px;height:24px;object-fit:contain}
 .chat-input-wrapper{display:flex;flex-direction:column;border-top:1px solid var(--border);background:#fff}
 
-/* WALLET MODAL */
+
 .wallet-form{display:flex;flex-direction:column;gap:.85rem;margin-top:.5rem}
 .wallet-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}
 .wallet-panel{border:1px solid var(--border);border-radius:12px;padding:.8rem .9rem;background:#f8fbff}
@@ -268,7 +268,6 @@ input.phone-input{letter-spacing:.04em}
 .wallet-file-btn:hover{background:var(--primary-dark)}
 .wallet-file-name{font-size:.8rem;color:#334155}
 
-/* ═══ SUPPORT GUIDE FLOATING ═══ */
 .support-float{position:fixed;bottom:22px;right:22px;z-index:200;display:flex;flex-direction:column;align-items:flex-end;gap:.5rem}
 .support-float-btn{width:52px;height:52px;border-radius:50%;background:var(--violet);border:3px solid rgba(255,255,255,.9);box-shadow:0 6px 24px rgba(124,58,237,.45);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.2s;position:relative}
 .support-float-btn:hover{transform:scale(1.08);background:var(--violet-dark)}
@@ -276,7 +275,7 @@ input.phone-input{letter-spacing:.04em}
 .support-badge{position:absolute;top:-5px;right:-5px;background:#dc2626;color:#fff;font-size:.62rem;font-weight:800;width:18px;height:18px;border-radius:50%;display:none;align-items:center;justify-content:center;border:2px solid #fff;font-family:'Nunito',sans-serif}
 .support-badge.show{display:flex}
 
-/* SUPPORT PANEL */
+
 .support-panel{position:fixed;bottom:82px;right:22px;z-index:199;width:360px;background:#fff;border-radius:18px;box-shadow:0 20px 60px rgba(15,23,42,.22);border:1px solid var(--border);overflow:hidden;display:none;flex-direction:column;animation:modalIn .2s ease;max-height:580px}
 .support-panel.open{display:flex}
 .support-panel-header{background:linear-gradient(135deg,var(--violet),#4f46e5);padding:.9rem 1rem;color:#fff;display:flex;justify-content:space-between;align-items:center}
@@ -303,13 +302,13 @@ input.phone-input{letter-spacing:.04em}
 .supmsg.reply{align-self:flex-start;background:#fff;border:1px solid var(--border);border-bottom-left-radius:3px}
 .supmsg-meta{font-size:.69rem;opacity:.65;margin-top:.15rem}
 
-/* PROFILE EDIT */
+
 .profile-verify-badge{display:inline-flex;align-items:center;gap:.35rem;border-radius:8px;padding:.25rem .6rem;font-size:.78rem;font-weight:700}
 .pv-pending{background:rgba(217,119,6,.12);color:#92400e}
 .pv-approved{background:rgba(15,157,122,.12);color:#0b7a5f}
 .pv-none{background:rgba(100,116,139,.1);color:#475569}
 
-/* ADMIN PANEL */
+
 .admin-card{background:linear-gradient(135deg,#0f172a,#1e1b4b);color:#fff;border-radius:16px;padding:1.4rem;margin-bottom:1rem}
 .admin-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.7rem;margin-top:.8rem}
 .admin-stat{background:rgba(255,255,255,.1);border-radius:10px;padding:.7rem .9rem;text-align:center}
@@ -323,7 +322,7 @@ input.phone-input{letter-spacing:.04em}
 .warn-pip.filled{background:#dc2626}
 .admin-notif{background:rgba(220,38,38,.08);border:1px solid rgba(220,38,38,.25);border-radius:10px;padding:.65rem .9rem;margin-bottom:.5rem;font-size:.84rem}
 
-/* RATING MODAL */
+
 .rating-modal-stars{display:flex;gap:.4rem;margin:.5rem 0 .3rem}
 .rating-modal-stars .star-btn{font-size:2rem}
 .review-card{border:1px solid var(--border);border-radius:10px;padding:.65rem .9rem;margin-bottom:.5rem;font-size:.84rem}
@@ -1229,9 +1228,7 @@ input.phone-input{letter-spacing:.04em}
 <div class="toast" id="toast"></div>
 
 <script>
-/* ═══════════════════════
-   DISTANCE TABLE
-═══════════════════════ */
+
 const DISTANCES = {
   "Алматы-Астана":1200,"Астана-Алматы":1200,"Алматы-Шымкент":680,"Шымкент-Алматы":680,
   "Астана-Шымкент":1750,"Шымкент-Астана":1750,"Алматы-Павлодар":1280,"Павлодар-Алматы":1280,
@@ -1252,9 +1249,7 @@ function getDistance(from,to){
 }
 const PAY_LABELS={cash:"Наличные",card:"Карта",kaspi:"Kaspi",halyk:"Halyk",freedom:"Freedom",jysan:"Jysan",bes:"Bereke",transfer:"Безнал"};
 
-/* ═══════════════════════
-   DATA
-═══════════════════════ */
+
 const loads=[
   {date:"05.05",from:"Шымкент",to:"Алматы",cargo:"Автомобиль",weight:"2 т",body:"автовоз",price:450000,pay:"kaspi"},
   {date:"05.05",from:"Павлодар",to:"Аральск",cargo:"Рыба глубокой заморозки",weight:"1 т",body:"рефрижератор",price:260000,pay:"halyk"},
@@ -1314,9 +1309,7 @@ let adminDeletedCount=0;
 let adminNotifications=[];
 let userWarnings={};
 
-/* ═══════════════════════
-   UTILS
-═══════════════════════ */
+
 function fmt(v){return new Intl.NumberFormat("ru-KZ").format(v)+" ₸";}
 function showToast(msg,type=""){
   const el=document.getElementById("toast");
@@ -1350,9 +1343,7 @@ function nowTime(){
   return `${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}`;
 }
 
-/* ═══════════════════════
-   TABS
-═══════════════════════ */
+
 function switchTab(name){
   document.querySelectorAll(".tab-content").forEach(t=>t.classList.remove("active"));
   document.querySelectorAll(".nav-btn").forEach(b=>b.classList.toggle("active",b.dataset.tab===name));
@@ -1364,9 +1355,7 @@ document.querySelectorAll(".nav-btn").forEach(b=>{
   b.addEventListener("click",()=>switchTab(b.dataset.tab));
 });
 
-/* ═══════════════════════
-   SELECTS
-═══════════════════════ */
+
 const citySet=new Set();
 loads.forEach(l=>{citySet.add(l.from);citySet.add(l.to);});
 transports.forEach(t=>{citySet.add(t.city);});
@@ -1382,9 +1371,7 @@ function fillBodySelect(id){
   el.innerHTML=base+["тент","крытая","изотерм","цельнометаллический","рефрижератор","автовоз","эвакуатор","автокран","бензовоз","бетоносмеситель","битумовоз","бортовой","бортовая","зерновоз","зерновоз-самосвал","контейнеровоз","коневоз","лесовоз","манипулятор","металловоз","микроавтобус грузовой","рефрижератор-самосвал","самосвал","трубовоз","фургон","экскаватор","автобус","любой"].map(b=>`<option value="${b}">${b}</option>`).join("");
 }
 
-/* ═══════════════════════
-   CLOCK & DATE
-═══════════════════════ */
+
 function initDate(){
   function update(){
     const now=new Date();
@@ -1398,9 +1385,7 @@ function initDate(){
   update();setInterval(update,1000);
 }
 
-/* ═══════════════════════
-   RATING SYSTEM
-═══════════════════════ */
+
 function initRatingStars(){
   const container=document.getElementById("ratingStars");
   container.innerHTML=[1,2,3,4,5].map(i=>`<button class="star-btn" data-val="${i}" onclick="setRating(${i})">☆</button>`).join("");
@@ -1468,9 +1453,7 @@ function checkLowRatingAlert(name){
   }
 }
 
-/* ═══════════════════════
-   LOADS
-═══════════════════════ */
+
 function filterLoads(){
   const from=document.getElementById("fromCity").value;
   const to=document.getElementById("toCity").value;
@@ -1527,9 +1510,7 @@ function renderExpensive(data){
   }).join("");
 }
 
-/* ═══════════════════════
-   TRANSPORT
-═══════════════════════ */
+
 function filterTransports(){
   const city=document.getElementById("tc-fromCity").value;
   const body=document.getElementById("tc-body").value;
@@ -1571,9 +1552,7 @@ function renderTransports(data){
   }).join("");
 }
 
-/* ═══════════════════════
-   DISTANCE MODAL
-═══════════════════════ */
+
 function showDist(from,to){
   const dist=getDistance(from,to);
   document.getElementById("distRouteLabel").textContent=`${from} → ${to}`;
@@ -1593,9 +1572,7 @@ function showDist(from,to){
 }
 document.getElementById("distModalClose").onclick=()=>document.getElementById("distModal").classList.remove("open");
 
-/* ═══════════════════════
-   RESPOND MODAL
-═══════════════════════ */
+
 document.getElementById("expensiveLoads").addEventListener("click",e=>{
   if(e.target.classList.contains("quick-contact")){
     openLoadOfferModal({
@@ -1620,9 +1597,7 @@ document.getElementById("respondSubmitBtn").addEventListener("click",()=>{
   showToast("Заявка отправлена. Брокер свяжет вас с заказчиком.","success");
 });
 
-/* ═══════════════════════
-   CHAT
-═══════════════════════ */
+
 function renderChatMessage(m,isBrokerView=false){
   if(m.from==="system"){
     return`<div class="chat-msg system">${m.text}<div class="chat-msg-meta">${m.time}</div></div>`;
@@ -1705,9 +1680,7 @@ function confirmReceipt(){
   setTimeout(()=>showRatingModal(chat.participants?.[1]||"Водитель","driver"),800);
 }
 
-/* ═══════════════════════
-   CHAT MODAL
-═══════════════════════ */
+
 let activeChatModal={route:"",type:"",idx:null,chatId:null};
 function openChatModal(route,type,idx){
   if(!requireAuth("чат и отклик"))return;
@@ -1806,9 +1779,7 @@ function confirmDealInChat(){
   showToast(`Сделка подтверждена! Комиссия ${fmt(commission)} переведена посреднику.`,"success");
 }
 
-/* ═══════════════════════
-   MAP MODAL
-═══════════════════════ */
+
 function respondFromMapModal(){
   document.getElementById("loadOfferModal").classList.remove("open");
   setTimeout(()=>{
@@ -1845,9 +1816,7 @@ function recalcLoadProfit(){
   document.getElementById("loadOfferProfit").value=fmt(Math.max(revenue-costs,0));
 }
 
-/* ═══════════════════════
-   TRANSPORT ORDER
-═══════════════════════ */
+
 function openTransportOrder(driverName){
   if(!requireAuth("заказ транспорта"))return;
   selectedTransportForOrder=transports.find(t=>t.name===driverName)||null;
@@ -1883,9 +1852,7 @@ function submitTransportOrder(){
   showToast("Заказ отправлен водителю в чат","success");
 }
 
-/* ═══════════════════════
-   BROKER CHAT PANEL
-═══════════════════════ */
+
 function renderBrokerChatList(){
   const el=document.getElementById("brokerChatList");if(!el)return;
   if(!chats.length){el.innerHTML=`<p class="muted" style="text-align:center;padding:1rem;font-size:.84rem">Чатов пока нет</p>`;return;}
@@ -1941,9 +1908,7 @@ function sendBrokerChatMsg(){
   if(activeChatId===brokerActiveChatId)renderChatMessages();
 }
 
-/* ═══════════════════════
-   WALLET
-═══════════════════════ */
+
 let walletModalMode="deposit";
 const BANK_REQUISITES={
   kaspi:{phone:"+7 777 777 7777",card:"7777 7777 7777 7777"},
@@ -2024,9 +1989,7 @@ function renderWallet(){
     </div>`).join(""):`<p class="muted" style="text-align:center;padding:1rem">История транзакций пуста</p>`;
 }
 
-/* ═══════════════════════
-   ADD LOAD
-═══════════════════════ */
+
 document.getElementById("al-submitBtn").addEventListener("click",()=>{
   if(!requireAuth("размещение груза"))return;
   const from=document.getElementById("al-from").value;
@@ -2056,9 +2019,7 @@ document.getElementById("al-resetBtn").addEventListener("click",()=>{
   document.querySelectorAll("#tab-add-load input[type=text],#tab-add-load input[type=number],#tab-add-load input[type=date],#tab-add-load textarea").forEach(el=>el.value="");
 });
 
-/* ═══════════════════════
-   ADD TRANSPORT
-═══════════════════════ */
+
 document.getElementById("at-submitBtn").addEventListener("click",()=>{
   if(!requireAuth("добавление транспорта"))return;
   const name=document.getElementById("at-name").value.trim();
@@ -2079,9 +2040,7 @@ document.getElementById("at-resetBtn").addEventListener("click",()=>{
   document.querySelectorAll("#tab-add-transport input[type=text],#tab-add-transport input[type=number],#tab-add-transport input[type=date]").forEach(el=>el.value="");
 });
 
-/* ═══════════════════════
-   FILTER BTNS
-═══════════════════════ */
+
 document.getElementById("findBtn").addEventListener("click",filterLoads);
 document.getElementById("tc-findBtn").addEventListener("click",filterTransports);
 document.getElementById("resetFiltersBtn").addEventListener("click",()=>{
@@ -2097,9 +2056,7 @@ document.getElementById("showAllExpensiveBtn").addEventListener("click",()=>{
   renderExpensive(loads);showToast("Показаны все дорогие грузы");
 });
 
-/* ═══════════════════════
-   PROFILE EDIT
-═══════════════════════ */
+
 let userProfiles={};
 function openProfileEdit(){
   if(!currentUser)return;
@@ -2156,9 +2113,7 @@ function saveProfileEdit(){
   document.getElementById("bigAvatar").textContent=initials;
 }
 
-/* ═══════════════════════
-   AUTH
-═══════════════════════ */
+
 function openAuth(tab="login"){
   document.getElementById("authModal").classList.add("open");
   switchAuthTab(tab);
@@ -2257,9 +2212,7 @@ document.getElementById("logoutBtn").addEventListener("click",()=>{
   renderProfile();showToast("Вы вышли из аккаунта");
 });
 
-/* ═══════════════════════
-   PROFILE RENDER
-═══════════════════════ */
+
 function renderProfile(){
   const guest=document.getElementById("profileGuest");
   const user=document.getElementById("profileUser");
@@ -2393,9 +2346,7 @@ function saveEditTransport(){
   renderTransports(transports);renderProfile();showToast("Транспорт обновлён","success");
 }
 
-/* ═══════════════════════
-   BROKER SYSTEM
-═══════════════════════ */
+
 let brokerWalletBalance=0,brokerDealsCompleted=0,brokerTransactions=[],brokerContactRequests=[];
 function brokerLogin(){
   if(currentUser?.role==="broker"){
@@ -2545,9 +2496,7 @@ function rejectBrokerRequest(id){
   const r=brokerContactRequests.find(x=>x.id===id);if(r)r.status="rejected";renderBrokerPanel();showToast("Запрос отклонён","warn");
 }
 
-/* ═══════════════════════
-   SUPPORT CHAT
-═══════════════════════ */
+
 function toggleSupportPanel(){
   supportPanelOpen=!supportPanelOpen;
   document.getElementById("supportPanel").classList.toggle("open",supportPanelOpen);
@@ -2615,9 +2564,7 @@ function sendSupportReply(msgId){
   renderBrokerPanel();showToast("Ответ отправлен","success");
 }
 
-/* ═══════════════════════
-   ADMIN PANEL
-═══════════════════════ */
+
 function adminLogin(){
   const pwd=document.getElementById("adminPwdInput").value;
   const err=document.getElementById("adminLoginError");
@@ -2733,9 +2680,7 @@ function deleteUserFromAdmin(name){
   renderAdminPanel();
 }
 
-/* ═══════════════════════
-   ESC & CLOSE
-═══════════════════════ */
+
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"){
     ["authModal","respondModal","distModal","walletModal","loadOfferModal","transportOrderModal","chatModal","editLoadModal","editTransportModal","profileEditModal","ratingModal"].forEach(id=>{
@@ -2746,9 +2691,7 @@ document.addEventListener("keydown",e=>{
 });
 document.getElementById("distModal").addEventListener("click",e=>{if(e.target.id==="distModal")document.getElementById("distModal").classList.remove("open");});
 
-/* ═══════════════════════
-   INIT
-═══════════════════════ */
+
 function init(){
   fillSelect("fromCity",cities);
   fillSelect("toCity",cities);
